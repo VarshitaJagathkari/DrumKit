@@ -14,8 +14,8 @@ function handleClick()
 document.addEventListener("keydown",function(event)
 {
   var keyPressed = event.key;
-  handleItAll(keyPressed);
-  buttonAnimation(keyPressed);
+  handleItAll(keyPressed.toLowerCase());
+  buttonAnimation(keyPressed.toLowerCase());
 });
 
 
